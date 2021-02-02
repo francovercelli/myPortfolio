@@ -21,7 +21,7 @@ const Skills = () => {
             <Card className="focus mt-2 mb-2">
               <Card.Body>
                 {/* Conocimiento tecnico */}
-                <Card.Title className="text-center  card-title">Lenguajes & Tech</Card.Title>
+                <Card.Title className="text-center  card-title">Lenguages & Tech</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   {skills.techknow.map((skill, index) => (
@@ -57,7 +57,7 @@ const Skills = () => {
             {/* AUTOMATIZACION*/}
             <Card className="focus mt-2 mb-2 ">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Automatizacion</Card.Title>
+                <Card.Title className="text-center  card-title">Auto</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                     <span className="p-2" >
@@ -75,7 +75,7 @@ const Skills = () => {
           <Col md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Herramientas</Card.Title>
+                <Card.Title className="text-center  card-title">Tools</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   {skills.tools.map((skill, index) => (

@@ -1,5 +1,8 @@
 .about {
     background-color: transparent;
+    background-image: url("../../assets/img/background/background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
     font-size: 1.1em;
 }
 

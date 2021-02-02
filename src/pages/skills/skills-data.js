@@ -119,7 +119,7 @@ export const skills = {
       link: "https://code.visualstudio.com/",
       imgAltText: "VisualCode",
       imgSrc: L_VCODE,
-      skillName: "Visual Studio Code",
+      skillName: "VS Code",
     },
     {
       link: "https://www.eclipse.org/",

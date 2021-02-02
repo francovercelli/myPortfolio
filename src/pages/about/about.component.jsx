@@ -2,7 +2,6 @@ import React from 'react';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import context from 'react-bootstrap/esm/AccordionContext';
 import Image from 'react-bootstrap/Image'
 import Profile from '../../assets/img/profile/profile.jpg'
 import './about.style.css'
@@ -33,10 +32,10 @@ const About = () => {
                                 <br />
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cum quos voluptatum obcaecati dignissimos minus totam aut impedit vit
                                 <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cum quos voluptatum obcaecati dignissimos minus totam aut impedit vit
-                                <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cum quos voluptatum obcaecati dignissimos minus totam aut impedit vit.
+                                <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cum quos voluptatum obcaecati dignissimos minus totam aut impedit vit//.
                                 <br /> <br />
                             </Row>
-                            <Row>
+                            <Row className=" align-items-start p-2 my-details rounded">
                                 {/*links buttons */}
                                 <Col className="d-flex justify-content-center flex-wrap">
                                 <div>
